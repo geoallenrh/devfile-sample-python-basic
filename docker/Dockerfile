@@ -9,7 +9,7 @@
 #
 # docker run -i --rm -p 8081:8081 python/sample-basic
 ####
-FROM python/3.6-ubi8
+FROM registry.access.redhat.com/ubi8/python-36
 
 WORKDIR /projects
 
